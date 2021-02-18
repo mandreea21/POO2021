@@ -12,7 +12,8 @@ int main()
     char c[100], *p,a[100],b[100]; int i, j , x, sum=0;
     while (f.getline(c,100))
     {
-    	p=strtok(c," ");//sum=0;
+    	p=strtok(c," ");
+    	//sum=0;
     	while (p)
 	{
 		strcpy(b,p);x=0;
